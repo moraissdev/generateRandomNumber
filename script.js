@@ -8,16 +8,7 @@ function generateRandomNumber() {
     const resultRandomNumber = Math.floor(Math.random() * (entryMaxNumberInputAnd - entryMinNumberInputBetween) + entryMinNumberInputBetween)
     
     spaceDisplayDrawNumber.textContent = (resultRandomNumber)
+    console.log(resultRandomNumber)
 }
-
-
-
-
-
-
-
-
-
-
 
 buttonToDrawNumber.addEventListener("click", generateRandomNumber)
