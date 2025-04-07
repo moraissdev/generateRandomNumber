@@ -39,15 +39,14 @@ img {
 }
 
 input {
-    border: 0 none;
+    border: 3px solid #F44336;
     outline: none;
     border-radius: 14px;
     height: 55px;
     width: 225px;
-    background-color: rgb(255 255 255);
+    background-color: rgb(255 255 255 / 0.25);
     color: #111111;
-    opacity: 0.25;
-    font-size: 35px;
+    font-size: 32px;
     font-weight: 500;
     line-height: 47px;
     padding: 3px 15px 3px 15px;
