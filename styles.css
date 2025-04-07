@@ -9,13 +9,6 @@
     font-family: "Roboto", sans-serif;
 }
 
-.number-draw {
-    display: block;
-    margin: auto;
-    margin-top: 60px;
-    text-align: center;
-}
-
 .digit {
     margin-top: 10px;
 }
