@@ -1,4 +1,19 @@
-const entryNumberBetween = querySelector(".between").value
-const entryNumberAnd = querySelector(".and").value
+const entryNumberInputBetween = document.querySelector(".between").value
+const buttonToDrawNumber = document.querySelector(".action-button")
 
-console.log(entryNumberBetween)
+function generateRandomNumber() {
+    //TESTANDO A FUNÇÃO console.log("Testando Botão")
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+buttonToDrawNumber.addEventListener("click", generateRandomNumber)
