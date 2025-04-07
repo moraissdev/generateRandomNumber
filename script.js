@@ -6,7 +6,7 @@ function generateRandomNumber() {
 
     const resultRandomNumber = Math.floor(Math.random() * (entryMaxNumberInputAnd - entryMinNumberInputBetween) + entryMinNumberInputBetween)
     
-    spaceDisplayDrawNumber.textContent = (resultRandomNumber)
+    spaceDisplayDrawNumber.textContent = "→ " + resultRandomNumber
 }
 buttonToDrawNumber.addEventListener("click", generateRandomNumber)
 //
