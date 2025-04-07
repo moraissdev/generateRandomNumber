@@ -22,10 +22,21 @@ const embeddedContent = document.querySelector(".wrapper");
 embeddedContent.style.display = "block"
 embeddedContent.style.textAlign = "center"
 embeddedContent.style.margin = "auto"
-embeddedContent.style.marginTop = "50px"
+embeddedContent.style.marginTop = "30px"
 //
-const spaceToGenerateNumber = document.querySelector(".number-draw");
+const spaceToGenerateNumber = document.querySelector(".number-generate");
 spaceToGenerateNumber.style.display = "block"
 spaceToGenerateNumber.style.margin = "auto"
-spaceToGenerateNumber.style.marginTop = "60px"
+spaceToGenerateNumber.style.marginTop = "50px"
 spaceToGenerateNumber.style.textAlign = "center"
+//
+const myGitHub = document.querySelector(".github");
+myGitHub.style.display = "block"
+myGitHub.style.textAlign = "center"
+myGitHub.style.margin = "auto"
+myGitHub.style.marginTop = "30px"
+myGitHub.style.border = "none"
+myGitHub.style.cursor = "pointer"
+myGitHub.style.fontWeight = "100"
+myGitHub.style.color = "white"
+//
