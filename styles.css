@@ -70,8 +70,8 @@ input {
     background-color: #aec346;
     border: none;
     border-radius: 15px;
-    height: 55px;
-    width: 280px;
+    height: 60px;
+    width: 250px;
     color: white;
     font-size: 32px;
     line-height: 2.5px;
@@ -96,10 +96,5 @@ input {
     .digit {
     display: block;
     margin: 12px auto auto;
-    }
-
-    .action-button {
-    height: 60px;
-    width: 250px;
     }
 }
