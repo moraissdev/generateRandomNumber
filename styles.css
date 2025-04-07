@@ -36,10 +36,11 @@ input {
     margin: auto;
     margin-top: 25px;
     color: #dddddd;
-    font-size: 20px;
+    font-size: 18px;
     border: 1px solid rgb(187 187 187 / 0.2);
     padding: 14px 22px;
     border-radius: 30px;
+    font-weight: 200;
 }
 
 .action-button {
