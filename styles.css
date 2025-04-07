@@ -9,24 +9,11 @@
     font-family: "Roboto", sans-serif;
 }
 
-.wrapper {
-    display: block;
-    margin: auto;
-    text-align: center;
-    margin-top: 50px;
-}
-
 .number-draw {
     display: block;
     margin: auto;
     margin-top: 60px;
     text-align: center;
-}
-
-.command {
-    font-size: 28px;
-    line-height: 38px;
-    font-weight: 400;
 }
 
 .digit {
