@@ -13,7 +13,7 @@ buttonToDrawNumber.addEventListener("click", generateRandomNumber)
 const prizeDrawImage = document.querySelector(".image").style.height = "215px"
 //
 const commandName = document.querySelector(".command");
-commandName.style.fontSize = "28px"
+commandName.style.fontSize = "26px"
 commandName.style.lineHeight = "38px"
 commandName.style.fontWeight = "400"
 commandName.style.color = "#dddddd"
