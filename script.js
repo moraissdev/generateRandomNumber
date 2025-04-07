@@ -9,5 +9,6 @@ function generateRandomNumber() {
     
     spaceDisplayDrawNumber.textContent = (resultRandomNumber)
 }
-
 buttonToDrawNumber.addEventListener("click", generateRandomNumber)
+
+const prizeDrawImage = document.querySelector(".image").style.height = "215px"
