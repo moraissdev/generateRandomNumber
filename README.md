@@ -1,4 +1,4 @@
-<h1 align="center">⚡ Responsivo para Web & Mobile ⚡</h1>
+<h1 align="center">Responsivo para Web & Mobile</h1>
 
 ###
 
