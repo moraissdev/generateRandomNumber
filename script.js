@@ -12,3 +12,4 @@ function generateRandomNumber() {
 buttonToDrawNumber.addEventListener("click", generateRandomNumber)
 
 const prizeDrawImage = document.querySelector(".image").style.height = "215px"
+const commandName = document.querySelector(".command").style.color = "#dddddd"
