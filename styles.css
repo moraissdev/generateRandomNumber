@@ -17,7 +17,7 @@
 }
 
 img {
-    height: 230px;
+    height: 215px;
 }
 
 .number-draw {
@@ -84,10 +84,6 @@ input {
 }
 
 @media screen and (max-width: 769px) {
-    img {
-    height: 200px;
-    }
-
     .between {
     margin-right: 25px;
     }
