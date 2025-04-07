@@ -31,7 +31,7 @@ img {
     font-size: 28px;
     line-height: 38px;
     font-weight: 400;
-    color: #fff;
+    color: ##dddddd;
 }
 
 .digit {
@@ -61,18 +61,18 @@ input {
 .number-result {
     margin: auto;
     margin-top: 25px;
-    color: white;
+    color: #dddddd;
     font-size: 22px;
 }
 
 .action-button {
     margin-top: 30px;
-    background-color: #aec346;
+    background-color: #f44336;
     border: none;
     border-radius: 15px;
     height: 60px;
     width: 250px;
-    color: white;
+    color: #dddddd;
     font-size: 32px;
     line-height: 2.5px;
     font-weight: 700;
