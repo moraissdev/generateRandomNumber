@@ -56,10 +56,6 @@ input {
     cursor: pointer;
 }
 
-.button-effect:hover {
-    opacity: 0.8;
-}
-
 @media screen and (max-width: 769px) {
     .between {
     margin-right: 25px;
