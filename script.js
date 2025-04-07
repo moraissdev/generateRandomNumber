@@ -31,6 +31,7 @@ spaceToGenerateNumber.style.marginTop = "50px"
 spaceToGenerateNumber.style.textAlign = "center"
 //
 const myGitHub = document.querySelector(".github");
+myGitHub.style.display = "none"
 myGitHub.style.textAlign = "center"
 myGitHub.style.margin = "auto"
 myGitHub.style.marginTop = "50px"
