@@ -31,12 +31,14 @@ spaceToGenerateNumber.style.marginTop = "50px"
 spaceToGenerateNumber.style.textAlign = "center"
 //
 const myGitHub = document.querySelector(".github");
-myGitHub.style.display = "block"
 myGitHub.style.textAlign = "center"
 myGitHub.style.margin = "auto"
-myGitHub.style.marginTop = "30px"
+myGitHub.style.marginTop = "50px"
 myGitHub.style.border = "none"
 myGitHub.style.cursor = "pointer"
 myGitHub.style.fontWeight = "100"
+myGitHub.style.background = "#F44336"
 myGitHub.style.color = "white"
+myGitHub.style.padding = "6px 16px"
+myGitHub.style.borderRadius = "25px"
 //
