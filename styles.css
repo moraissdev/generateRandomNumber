@@ -14,7 +14,7 @@
 }
 
 input {
-    border: 2px solid #F44336;
+    border: 2px solid #ff1100;
     outline: none;
     border-radius: 14px;
     height: 50px;
@@ -44,7 +44,7 @@ input {
 
 .action-button {
     margin-top: 18px;
-    background-color: #f44336;
+    background-color: #ff1100;
     border: none;
     border-radius: 15px;
     height: 55px;

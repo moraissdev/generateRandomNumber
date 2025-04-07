@@ -5,7 +5,7 @@ function generateRandomNumber() {
     const spaceDisplayDrawNumber = document.querySelector(".number-result")
 
     const resultRandomNumber = Math.floor(Math.random() * (entryMaxNumberInputAnd - entryMinNumberInputBetween) + entryMinNumberInputBetween)
-    
+
     spaceDisplayDrawNumber.innerHTML = "Resultado → " + resultRandomNumber
 }
 buttonToDrawNumber.addEventListener("click", generateRandomNumber)
@@ -37,7 +37,7 @@ myGitHub.style.marginTop = "50px"
 myGitHub.style.border = "none"
 myGitHub.style.cursor = "pointer"
 myGitHub.style.fontWeight = "300"
-myGitHub.style.background = "#F44336"
+myGitHub.style.background = "#ff1100"
 myGitHub.style.color = "white"
 myGitHub.style.padding = "6px 16px"
 myGitHub.style.borderRadius = "25px"
