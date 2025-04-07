@@ -13,7 +13,7 @@
     display: block;
     margin: auto;
     text-align: center;
-    margin-top: 75px;
+    margin-top: 50px;
 }
 
 img {
@@ -58,6 +58,13 @@ input {
     margin-right: 35px;
 }
 
+.number-result {
+    margin: auto;
+    margin-top: 25px;
+    color: white;
+    font-size: 22px;
+}
+
 .action-button {
     margin-top: 30px;
     background-color: #aec346;
@@ -72,17 +79,8 @@ input {
     cursor: pointer;
 }
 
-.button-effect {
-    transition: ease-in-out 0.4s;
-}
-
 .button-effect:hover {
-    opacity: 0.9;
-    transform: translateY(-4px);
-}
-
-.button-effect:active {
-    opacity: 0.6;
+    opacity: 0.8;
 }
 
 @media screen and (max-width: 769px) {
