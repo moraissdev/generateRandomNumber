@@ -17,7 +17,7 @@
 }
 
 img {
-    height: 350px;
+    height: 230px;
 }
 
 .number-draw {
@@ -70,8 +70,8 @@ input {
     background-color: #aec346;
     border: none;
     border-radius: 15px;
-    height: 60px;
-    width: 285px;
+    height: 55px;
+    width: 280px;
     color: white;
     font-size: 32px;
     line-height: 2.5px;
