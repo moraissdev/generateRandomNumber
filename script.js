@@ -4,9 +4,14 @@ function generateRandomNumber() {
     const entryMaxNumberInputAnd = Math.floor(document.querySelector(".and").value) // PEGAR VALOR DIGITADO NO BOTÃO "e"
     const spaceDisplayDrawNumber = document.querySelector(".number-result")
 
+    if (entryMinNumberInputBetween < entryMaxNumberInputAnd){
     const resultRandomNumber = Math.floor(Math.random() * (entryMaxNumberInputAnd - entryMinNumberInputBetween) + entryMinNumberInputBetween)
 
     spaceDisplayDrawNumber.innerHTML = "Resultado → " + resultRandomNumber
+    }
+    if (entryMinNumberInputBetween >= entryMaxNumberInputAnd) {
+        spaceDisplayDrawNumber.textContent = "O primeiro valor deve ser menor!"
+    }
 }
 buttonToDrawNumber.addEventListener("click", generateRandomNumber)
 //
