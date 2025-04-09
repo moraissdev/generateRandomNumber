@@ -9,8 +9,8 @@ function generateRandomNumber() {
 
     spaceDisplayDrawNumber.innerHTML = "Resultado → " + resultRandomNumber
     }
-    if (entryMinNumberInputBetween >= entryMaxNumberInputAnd) {
-        spaceDisplayDrawNumber.textContent = "O primeiro valor deve ser menor!"
+    else {
+        spaceDisplayDrawNumber.textContent = "O valor mínimo deve ser MENOR que o valor máximo"
     }
 }
 buttonToDrawNumber.addEventListener("click", generateRandomNumber)
