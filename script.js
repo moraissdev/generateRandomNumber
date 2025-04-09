@@ -10,7 +10,7 @@ function generateRandomNumber() {
     spaceDisplayDrawNumber.innerHTML = "Resultado → " + resultRandomNumber
     }
     else {
-        spaceDisplayDrawNumber.textContent = "O valor mín deve ser MENOR que o valor máx"
+        spaceDisplayDrawNumber.textContent = "Mín deve ser MENOR que o valor máx"
     }
 }
 buttonToDrawNumber.addEventListener("click", generateRandomNumber)
